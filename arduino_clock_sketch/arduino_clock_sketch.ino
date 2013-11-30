@@ -23,7 +23,6 @@ const uint8_t PROJECT_KEY[BC_KEY_SIZE_BYTES] =
 
 // Command definitions
 #define COMMAND_SEND_TIME 1
-#define COMMAND_TRIGGER_ALARM 5
 
 // To keep track of the loop number
 int loop_no = 0;
