@@ -27,3 +27,6 @@ This process works because when your devshield connects to BERGCloud, an HTTP re
 The server then sends a request back to that devshield with current time, offset by 23 seconds to account for lag. You might need to fine-tune this depending on how it works for you.
 
 Once the Arduino receives the command back from the server containing the time, it unpacks it and uses the Arduino `Time` library to keep track of the system time.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/alfo/devshield-arduino-clock/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
